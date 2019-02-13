@@ -1,0 +1,28 @@
+ExeStack:
+readFile(var_f+2, var_c); print(var_c); if(var_c) then readFile(var_f, var_c); print(var_c) else print(0); ; CloseRFileStmt(var_f) openRFile(var_f, file3.txt) 
+SymTable:
+
+Out:
+
+FileTable:
+
+ExeStack:
+readFile(var_f+2, var_c); print(var_c); if(var_c) then readFile(var_f, var_c); print(var_c) else print(0); ; CloseRFileStmt(var_f) 
+SymTable:
+var_f -> 2
+
+Out:
+
+FileTable:
+2 -> file3.txt
+
+ExeStack:
+print(var_c); if(var_c) then readFile(var_f, var_c); print(var_c) else print(0); ; CloseRFileStmt(var_f) readFile(var_f+2, var_c) 
+SymTable:
+var_f -> 2
+
+Out:
+
+FileTable:
+2 -> file3.txt
+
