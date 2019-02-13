@@ -1,0 +1,207 @@
+Id:
+1
+ExeStack:
+b = 2; c = 5; switch((a*10)( case(b*c):(print(a); print(b)) case(10):(print(100); print(200)) (default:print(300)); print(300) a = 1 
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+Id:
+1
+ExeStack:
+b = 2; c = 5; switch((a*10)( case(b*c):(print(a); print(b)) case(10):(print(100); print(200)) (default:print(300)); print(300) 
+SymTable:
+a -> 1
+
+Out:
+
+FileTable:
+
+Heap:
+
+Id:
+1
+ExeStack:
+c = 5; switch((a*10)( case(b*c):(print(a); print(b)) case(10):(print(100); print(200)) (default:print(300)); print(300) b = 2 
+SymTable:
+a -> 1
+
+Out:
+
+FileTable:
+
+Heap:
+
+Id:
+1
+ExeStack:
+c = 5; switch((a*10)( case(b*c):(print(a); print(b)) case(10):(print(100); print(200)) (default:print(300)); print(300) 
+SymTable:
+a -> 1
+
+b -> 2
+
+Out:
+
+FileTable:
+
+Heap:
+
+Id:
+1
+ExeStack:
+switch((a*10)( case(b*c):(print(a); print(b)) case(10):(print(100); print(200)) (default:print(300)); print(300) c = 5 
+SymTable:
+a -> 1
+
+b -> 2
+
+Out:
+
+FileTable:
+
+Heap:
+
+Id:
+1
+ExeStack:
+switch((a*10)( case(b*c):(print(a); print(b)) case(10):(print(100); print(200)) (default:print(300)); print(300) 
+SymTable:
+a -> 1
+
+b -> 2
+
+c -> 5
+
+Out:
+
+FileTable:
+
+Heap:
+
+Id:
+1
+ExeStack:
+print(300) switch((a*10)( case(b*c):(print(a); print(b)) case(10):(print(100); print(200)) (default:print(300)) 
+SymTable:
+a -> 1
+
+b -> 2
+
+c -> 5
+
+Out:
+
+FileTable:
+
+Heap:
+
+Id:
+1
+ExeStack:
+print(300) if(a*10==b*c) then print(a); print(b) else if(a*10==10) then print(100); print(200) else print(300); ;  
+SymTable:
+a -> 1
+
+b -> 2
+
+c -> 5
+
+Out:
+
+FileTable:
+
+Heap:
+
+Id:
+1
+ExeStack:
+print(300) print(a); print(b) 
+SymTable:
+a -> 1
+
+b -> 2
+
+c -> 5
+
+Out:
+
+FileTable:
+
+Heap:
+
+Id:
+1
+ExeStack:
+print(300) print(b) print(a) 
+SymTable:
+a -> 1
+
+b -> 2
+
+c -> 5
+
+Out:
+
+FileTable:
+
+Heap:
+
+Id:
+1
+ExeStack:
+print(300) print(b) 
+SymTable:
+a -> 1
+
+b -> 2
+
+c -> 5
+
+Out:
+1 
+FileTable:
+
+Heap:
+
+Id:
+1
+ExeStack:
+print(300) 
+SymTable:
+a -> 1
+
+b -> 2
+
+c -> 5
+
+Out:
+1 
+2 
+FileTable:
+
+Heap:
+
+Id:
+1
+ExeStack:
+
+SymTable:
+a -> 1
+
+b -> 2
+
+c -> 5
+
+Out:
+1 
+2 
+300 
+FileTable:
+
+Heap:
+
